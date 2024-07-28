@@ -1,0 +1,83 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+nav i {
+    color: black;
+}
+
+nav .btn {
+    border-radius: 2rem;
+    padding: 0.5rem 2rem;
+}
+
+.login{
+    background-image: url("images/classroom1.png");
+    height: 100vh;
+}
+.login .left-content {
+    margin-top: 40px;
+    margin-left:auto;
+}
+.login .card {
+    width: 27rem;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.login .card .card-header{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.login .left-content h1{
+    font-size: 100px;
+    color: black;
+}
+
+.login .left-content p{
+    color: black;
+    font-weight: 500;
+}
+
+.card .btn {
+    display: flex;
+    justify-content: center;
+}
+
+.login .card-body p{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.login .card-body form .btn{
+    border: none;
+    margin: 0;
+    padding-left: 11rem;
+    padding-right: 11rem;
+    border-radius: 1rem;
+}
+
+.login .card-body button{
+    border: none;
+    margin: 0;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 1rem;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 1.5rem;
+}
+.footer-txt{
+    text-align:center;
+    justify-content: center;
+    align-content: center;
+    color: rgb(145, 142, 142);
+    font-weight: 200;
+    top: 20%;
+    position: relative;
+}
